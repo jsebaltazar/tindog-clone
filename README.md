@@ -1,2 +1,1 @@
-# tindog-clone
-tindog-clone 
+TinDog Starting Files
