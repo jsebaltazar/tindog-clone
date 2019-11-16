@@ -2,7 +2,8 @@
   background-color: #ff4c68;
   color: #FFF;
   font-size: 1.5rem;
-}
+  position: relative;
+  z-index: -2;
 }
 
 body {
@@ -17,7 +18,7 @@ h1 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 0;
 }
 
 /* Navigation Bar */
@@ -50,15 +51,25 @@ h1 {
 /* TItle-Image */
 .title-image {
   transform: rotate(30deg);
-  width: 60%;
+  width: 50%;
+  position: relative;
+  z-index: -1;
+  text-align: center;
+  left: 25%;
+}
+
+.container-fluid {
+  padding: 3% 15% 0;
 }
 
 /* Features  section*/
 #features {
+  background-color: #FFF;
   color: #8f8f8f;
   padding: 7% 15% 7%;
   text-align: center;
   line-height: 1.5rem;
+  position: relative;
 }
 
 /* testimonial */
@@ -88,32 +99,277 @@ p {
 /* Testimonials section*/
 #testimonials {
   text-align: center;
-  padding: 7% 15% 7%;
   background-color: #EF8172;
   color: #FFF;
-
 }
 
-h2{
+h2 {
   font-size: 2.5rem;
   font-family: "Montserrat";
   font-weight: 600;
 }
 
-.testimonial-image{
-border-radius: 50%;
-width: 10%;
-margin:20px auto 20px;
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px auto 20px;
 }
 
 /* Press section */
-#press{
+#press {
   background-color: #EF8172;
-      text-align: center;
-        padding: 7% 15% 3 %;
+  text-align: center;
 }
 
-.press-logo{
+.press-logo {
   width: 10%;
-  margin:20px 20px 20px 50px;
+  margin: 20px 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15% 7%;
+}
+
+/* media queries */
+@media (min-width:135px) and (max-width:168px) {
+  h1 {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .btn-download {
+    margin: 5% 1% 5% 0;
+    font-size: .5rem;
+  }
+
+  .title-image {
+    transform: rotate(0deg);
+    width: 100%;
+    position: static;
+    z-index: -1;
+    text-align: center;
+    right: 10%;
+  }
+
+  .container-fluid {
+    padding-bottom: 10%;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .testimonial-image {
+    width: 80%;
+  }
+
+  #press {}
+
+  .row-press {
+    text-align: center;
+    padding: 10% 0 5%;
+  }
+
+  .press-logo {
+    width: 30%;
+    padding: 0 auto 0;
+    margin: 0 auto 0;
+  }
+}
+
+@media (min-width:169px) and (max-width:1000px) {
+  h1 {
+    text-align: left;
+    font-size: 4rem;
+  }
+
+  .btn-download {
+    margin: 5% 1% 5% 0;
+    font-size: 1.2rem;
+  }
+
+  .title-image {
+    transform: rotate(0deg);
+    width: 100%;
+    position: static;
+    z-index: -1;
+    text-align: center;
+    right: 10%;
+  }
+
+  .container-fluid {
+    padding-bottom: 10%;
+  }
+
+  .testimonial-image {
+    width: 80%;
+  }
+
+  #press {}
+
+  .row-press {
+    text-align: center;
+  }
+
+  .press-logo {
+    width: 20%;
+  }
+}
+
+@media (min-width:1030px) and (max-width:1059px) {
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .btn-download {
+    text-align: center;
+    margin: 5% 5% 0 3%;
+    font-size: 1rem;
+    margin
+  }
+
+  .title-image {
+    transform: rotate(30deg);
+    width: 60%;
+    position: relative;
+    z-index: -1;
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding-bottom: 0%;
+  }
+}
+
+@media (min-width:1060px) {
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .btn-download {
+    margin: 5% 0 5% 0;
+  }
+
+  .title-image {
+    transform: rotate(30deg);
+    width: 80%;
+    position: relative;
+    z-index: -1;
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding-bottom: 10%;
+  }
+}
+
+@media (min-width:2000px) and (max-width:2300px) {
+  h1 {
+    text-align: left;
+    font-size: 7rem;
+  }
+
+  .btn-download {
+    margin: 5% 1% 5% 0;
+    font-size: 1.8rem;
+  }
+
+  .title-image {
+    transform: rotate(30deg);
+    width: 80%;
+    position: aboslute;
+    z-index: -1;
+    text-align: center;
+    top: 10%;
+    left: 1%;
+  }
+
+  .container-fluid {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 80rem;
+  }
+}
+
+@media (min-width:2301px) {
+  h1 {
+    text-align: left;
+    font-size: 7.5rem;
+  }
+
+  .btn-download {
+    margin: 5% 1% 5% 0;
+    font-size: 1.8rem;
+  }
+
+  .title-image {
+    transform: rotate(30deg);
+    width: 80%;
+    position: aboslute;
+    z-index: -1;
+    text-align: center;
+
+    left: 1%;
+    bottom:2%;
+  }
+
+  .container-fluid {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 80rem;
+  }
+
+.testi-ico{
+  font-size: 8rem;
+}
+  h3 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .testimonial-image {
+    width: 20%;
+  }
+
+}
+/* Footer */
+#cta{
+text-align: center;
+background-color: #ff4c68;
+padding:10% 0 10% 0%;
+}
+
+.cta-heading{
+  color: #FFF;
+  line-height: 2;
+  font-size: 4rem;
+}
+.btn-dl-ft{
+  margin: 0 3% 0 3%;
+  font-size: 2rem;
+
+}
+#footer{
+text-align: center;
+background-color: #ff4c68;
+padding-bottom: 1%;
+font-size: 1.2rem;
+}
+.social-ico{
+  font-size: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
