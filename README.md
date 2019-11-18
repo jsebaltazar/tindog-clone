@@ -10,5 +10,5 @@
 - <a href="https://getbootstrap.com/">Bootstrap v4.3.x</a>
 
 
-Built for learning purposes only. Materials used belong to their respective copywrite owners. Well, except for Pampu the shih tzu 😁
+Built for learning purposes only. Materials used belong to their respective copywrite owners. Well, except for my buddy Pampu the Shih Tzu 😁
 
