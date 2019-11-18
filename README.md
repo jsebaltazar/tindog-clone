@@ -2,7 +2,7 @@ a href="https://jsebaltazar.github.io/tindog-clone/"><img src="https://github.co
 
 # Repository Title Goes Here
 
-> A tinder clone website but for doggos. Built for learning purposes
+> A tinder clone website but for doggos. 
 
 **Technologies used**
 - HTML5
@@ -10,5 +10,5 @@ a href="https://jsebaltazar.github.io/tindog-clone/"><img src="https://github.co
 - Bootstrap v4.0.0
 
 
-
+Built for learning purposes only. Materials used belong to their respective copywrite owners.
 
