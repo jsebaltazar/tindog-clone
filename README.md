@@ -1,27 +1,14 @@
-a href="https://jsebaltazar.github.io/tindog-clone/"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
-
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
-
-***INSERT GRAPHIC HERE (include hyperlink in image)***
+a href="https://jsebaltazar.github.io/tindog-clone/"><img src="https://github.com/jsebaltazar/tindog-clone/blob/master/images/screenshot.png" title="tindogg-clone" alt="tindogg-clone"></a>
 
 # Repository Title Goes Here
 
-> Subtitle or Short Description Goes Here
+> A tinder clone website but for doggos. Built for learning purposes
 
-> ideally one sentence
+**Technologies used**
+- HTML5
+- CSS3
+- Bootstrap v4.0.0
 
-> include terms/tags that can be searched
 
-**Badges will go here**
 
-- build status
-- issues (waffle.io maybe)
-- devDependencies
-- npm package
-- coverage
-- slack
-- downloads
-- gitter chat
-- license
-- etc.
 
