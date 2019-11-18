@@ -1,4 +1,4 @@
-a href="https://jsebaltazar.github.io/tindog-clone/"><img src="https://github.com/jsebaltazar/tindog-clone/blob/master/images/screenshot.png" title="tindogg-clone" alt="tindogg-clone"></a>
+<a href="https://jsebaltazar.github.io/tindog-clone/"><img src="https://github.com/jsebaltazar/tindog-clone/blob/master/images/screenshot.png" title="tindogg-clone" alt="tindogg-clone"></a>
 
 # Repository Title Goes Here
 
